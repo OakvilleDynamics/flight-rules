@@ -2,7 +2,16 @@
 
 - [GitHub Flight Rules](#github-flight-rules)
   - [FAQ](#faq)
-    - [What is this document?](#what-is-this-document)
+    - [Q: What is this document?](#q-what-is-this-document)
+    - [Q: Can there be a section on *x*?](#q-can-there-be-a-section-on-x)
+    - [Q: I notice an error, can I fix it?](#q-i-notice-an-error-can-i-fix-it)
+  - [Basics of Git](#basics-of-git)
+    - [What is Git?](#what-is-git)
+    - [How do I save changes?](#how-do-i-save-changes)
+    - [What is GitHub?](#what-is-github)
+    - [How do I work with other people?](#how-do-i-work-with-other-people)
+    - [How do I get my code to be on the main branch?](#how-do-i-get-my-code-to-be-on-the-main-branch)
+    - [Simplified definitions](#simplified-definitions)
   - [Commits](#commits)
     - [Writing a good commit](#writing-a-good-commit)
       - [Examples of good commits](#examples-of-good-commits)
@@ -17,13 +26,66 @@
 
 ## FAQ
 
-### What is this document?
+### Q: What is this document?
 
 This document provides a structure for anything that you should do when operating Git, GitHub, or any codebase within the organization.
 
 Following this document or the guidelines of this document when things do go wrong can help you in the process of things breaking, or if you want to sharpen your Git skills
 
 There will also be examples used from archived repositories from competitions past to ensure consistency.
+
+### Q: Can there be a section on *x*?
+
+Create an issue on the repository, this will be considered as an addition to the already growing document. If you already have made the additions and you want to submit them, you can submit a pull request and have the changes reviewed before merge.
+
+### Q: I notice an error, can I fix it?
+
+Create an issue, if you want to fix it yourself you can make a pull request.
+
+## Basics of Git
+
+### What is Git?
+
+Git is a tool that allows for code to be saved in a manner where there is versioning, such as `v0.1`, `v0.2.1`, etc., and is self containing. No extra folders that have to be renamed, it does the job for you.
+
+### How do I save changes?
+
+When you want to save a change that you have made, it is called a `commit`. A commit tracks the changes that you have made to what was previously there, and keeps a running history of every single change on every single line.
+
+Saving with Ctrl+S/⌘+S just saves normally, this does not save in Git. You need to tell Git to commit those changes, therefore it is saved in Git.
+
+### What is GitHub?
+
+Git is merely the tool, but GitHub is the "Google Drive" of code, where you can share your code with others and work on it simultaneously. This location is called a `repository`.
+
+Once your code is committed, you can `push` your changes to GitHub, where everyone that has access to your code can work off of your changes.
+
+### How do I work with other people?
+
+To have others code on your local machine to test and tweak, you can `pull` from GitHub, which just pulls all the changes made to your computer.
+
+All you need to work with people on GitHub is a GitHub account.
+
+Think of a tree, there are branches on a tree, it all stems back into the main branch that is the source of the whole tree. This can be translated into a repository, a `branch` is a clone of the main branch on the tree, or another branch entirely, and is separate. This is helpful when working with others as new features or fixing bugs can be tested in its own sandbox.
+
+### How do I get my code to be on the main branch?
+
+You can combine branches back into the main branch either with a merge or a pull request.
+
+### Simplified definitions
+
+- Git
+  - A special tool that saves all changes for all code written from history
+- GitHub
+  - Google Drive for code
+- Commit
+  - A savepoint for code
+- Push
+  - Submitting your code to a GitHub repository
+- Repository
+  - If GitHub is Google Drive for code, A repository is a Google Doc for code
+- Branch
+  - Separate copies of the main code, can be used to test new features or fix bugs
 
 ## Commits
 
