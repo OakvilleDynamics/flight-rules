@@ -12,6 +12,7 @@
     - [How do I work with other people?](#how-do-i-work-with-other-people)
     - [How do I get my code to be on the main branch?](#how-do-i-get-my-code-to-be-on-the-main-branch)
     - [Simplified definitions](#simplified-definitions)
+  - [General Process from start to finish](#general-process-from-start-to-finish)
   - [Commits](#commits)
     - [Writing a good commit](#writing-a-good-commit)
       - [Examples of good commits](#examples-of-good-commits)
@@ -86,6 +87,19 @@ You can combine branches back into the main branch either with a merge or a pull
   - If GitHub is Google Drive for code, A repository is a Google Doc for code
 - Branch
   - Separate copies of the main code, can be used to test new features or fix bugs
+
+## General Process from start to finish
+
+This section outlines what actions should be done when clocking in to work and clocking out when work is finished for the day.
+
+1. Pull changes from current robotics repository
+2. Ask around what everyone is working on as well as what needs to be done for you if progress has been made, check chats if there has been mentions of you or code to get working or added
+3. Make changes
+4. Commit changes
+5. Repeat steps 3-4 until packing up
+6. Push all changes to repository
+
+Once you have pushed everything to the repository, others are able to view work and can work with your code if you are absent from a build session or working remotely.
 
 ## Commits
 
